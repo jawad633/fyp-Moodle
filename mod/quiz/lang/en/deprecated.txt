@@ -1,0 +1,3 @@
+completionminattemptsgroup,mod_quiz
+grade,mod_quiz
+timetaken,mod_quiz
