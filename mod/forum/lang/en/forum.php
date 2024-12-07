@@ -792,6 +792,8 @@ $string['showmoreusers'] = 'Show more users';
 $string['viewconversation'] = 'View discussion';
 $string['viewgrades'] = 'View grades';
 
+$string['facebooklink_error'] = 'Facebook links are not allowed in this forum.';
+
 // Deprecated since Moodle 4.3.
 $string['completionpostsgroup'] = 'Require posts';
 $string['completiondiscussionsgroup'] = 'Require discussions';

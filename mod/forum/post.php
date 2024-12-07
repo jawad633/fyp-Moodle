@@ -562,10 +562,19 @@ if (!empty($forum)) {
 
     $prunemform = new mod_forum_prune_form(null, array('prune' => $prune, 'confirm' => $prune));
 
+    echo "<script>console.log('Form data retrieved.')</script>";
+
+
     if ($prunemform->is_cancelled()) {
         redirect(forum_go_back_to($urlfactory->get_discussion_view_url_from_discussion($discussionentity)));
     } else if ($fromform = $prunemform->get_data()) {
-        // User submits the data.
+
+                // Assuming 'message' is the field where the user might submit links
+
+
+
+
+       // User submits the data.
         $newdiscussion = new stdClass();
         $newdiscussion->course       = $discussion->course;
         $newdiscussion->forum        = $discussion->forum;
